@@ -5,10 +5,5 @@ from dotenv import dotenv_values
 
 config = dotenv_values(".env")
 
-#print(config.keys())
-#print(config.values())
-#print(config.items())
-
-#listing all key values
 for k,v in config.items():
-  print(f"For {k} the value is: {v}")
+  print(f"For {k} the value is: {v}.")
