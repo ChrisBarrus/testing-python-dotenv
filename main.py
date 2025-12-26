@@ -5,5 +5,6 @@ from dotenv import dotenv_values
 
 config = dotenv_values(".env")
 
-print(config['EMAIL'])
-print(config)
+#listing all key values
+for k,v in config:
+  print(f"For {k} the value is: {v}")
